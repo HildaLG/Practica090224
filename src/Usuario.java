@@ -12,6 +12,7 @@ public class Usuario {
     String Nombre;
     Video videoSubido;
     
+    
     public Usuario (String Nombre){
         this.Nombre=Nombre;
     }
@@ -35,6 +36,7 @@ public class Usuario {
     public void subirVideo(Video videoSubido){
        this.videoSubido=videoSubido;             
     }
+
     public void mostrarinfoUsuario(){
        System.out.println("Usuario: "+ Nombre);
        if (videoSubido != null){
